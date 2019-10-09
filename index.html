@@ -174,6 +174,7 @@ http-equiv="X-UA-Compatible">
 			{
 				if(mp3Bool)
 				{
+					console.log(mp3Bool)
 					var myAuto = document.getElementById('myaudio');
             		myAuto.play();
 					mp3Bool = false;
@@ -314,6 +315,7 @@ http-equiv="X-UA-Compatible">
 
 				var button = document.getElementById( 'music' );
 				button.addEventListener( 'click', function ( event ) {
+					//console.log(event)
 					playMp3();
 					
 				}, false );
